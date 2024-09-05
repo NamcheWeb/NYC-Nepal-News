@@ -1,0 +1,125 @@
+/*=============================================
+			Theme Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.th-stars span:after,
+.th-navigation ul li a:hover,
+.th-navigation ul li a:hover:before,
+.th-postmatadata li a:hover,
+.th-posttitle h2 a:hover,
+.th-themepost-img figcaption .th-postmatadata li time a:hover,
+.th-explorers .th-section-head h2,
+.th-addlink:hover i,
+.th-addnav ul li a:hover,
+.th-themesocialicon li a:hover i,
+.th-footernav ul li a:hover,
+.th-allpostslider .th-posttitle h2 a:hover,
+.th-dropdowntabs li:hover a,
+.th-dropdowntabs li.active a,
+.th-authormetadata li a:hover,
+.th-products .th-section-head h2,
+.th-widgetcart ul li .th-productname h4 a:hover,
+.th-carttotal ul li:last-child strong,
+.th-banner .th-trandingcategory a:hover,
+.th-productrating,
+.th-themetabnav ul li ul li.active,
+.th-themetabnav ul li ul li.active a:hover,
+.th-themetabnav ul li ul li.active a,
+.th-themetabnav ul li ul li:hover,
+.th-themetabnav ul li ul li:hover a,
+.th-homesliderthumb .swiper-slide .th-receipetitle h4 a:hover{color: #ff3f3a;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+.th-btn:hover,
+.th-btntwo:hover,
+.th-nav > div > ul > li > ul li a:before,
+.th-newsletterbox,
+.th-post-count,
+.th-adds li .th-btn:hover,
+.th-shopbanner figcaption .th-btn,
+.th-banner .th-trandingcategory .th-themetabnav ul li a:after,
+.th-producttabnav li a:hover,
+.th-producttabnav li.active a,
+.th-number,
+.th-accounttabs > ul > li.active{background:#ff3f3a;}
+/*=============================================
+			Theme Border Color
+=============================================*/
+.th-btn:hover,
+.th-theme-tag:after,
+.th-themesocialicon li a:hover,
+.th-theme-tag:before,
+.th-adds li .th-btn:hover,
+.th-shopbanner figcaption .th-btn{border-color: #ff3f3a;}
+/*==========================================================================================
+							THEME SECTION COLOR
+==========================================================================================*/
+/*=============================================
+			Fashion Color
+=============================================*/
+.th-fashion .th-section-head h2,
+.th-fashion .th-themepost a:hover{color: #26aae0;}
+/*=============================================
+			Fashion Color
+=============================================*/
+.th-lifestyle .th-section-head h2,
+.th-lifestyle .th-themepost a:hover{color:#5f2e79;}
+/*=============================================
+			Most Popular Color
+=============================================*/
+.th-productcategory span,
+.th-mostpopular .th-section-head h2,
+.th-mostpopular .th-themepost a:hover,
+.th-mostpopular .th-sidebar .th-mostpopularpost .th-contentbox a:hover{color:#f9b248;}
+/*=============================================
+			Most Popular Background Color
+=============================================*/
+.th-mostpopular .th-sidebar .th-mostpopularpost .th-post-count{background:#f9b248;}
+/*=============================================
+			Politics Color
+=============================================*/
+.th-politics .th-section-head h2,
+.th-trandingcategory .th-section-head h2,
+.th-trandingcategory .th-themetabnav > ul > li:hover > a,
+.th-trandingcategory .th-themetabnav > ul > li.active > a,
+.th-politics .th-themepost a:hover{color: #6fb566;}
+/*=============================================
+			Politics Background Color
+=============================================*/
+.th-posttabnav li.active a,
+.th-trandingcategory .th-themetabnav > ul > li > a:hover:after,
+.th-trandingcategory .th-themetabnav > ul > li.active > a:after,
+.th-posttabnav li.active a,
+.th-posttabnav li a:hover{ background:#6fb566;}
+/*=============================================
+			Politics Border Color
+=============================================*/
+.th-posttabnav li.active a,
+.th-posttabnav li a:hover{ border-color:#6fb566;}
+/*=============================================
+			Politics Color
+=============================================*/
+.th-latestpost.th-bgdark .th-section-head h2,
+.th-latestpost .th-themepost a:hover{ color:#eb3472;}
+/*=============================================
+			Latest News Color
+=============================================*/
+.th-latestnews .th-section-head h2,
+.th-latestnews .th-themepost a:hover,
+.th-widget > ul > li a:hover,
+.th-socialicons li a:hover em i{ color:#ff7328;}
+/*=============================================
+			Latest News Background Color
+=============================================*/
+.th-pagination ul li a:hover{ background:#ff7328;}
+/*=============================================
+			Latest News Border Color
+=============================================*/
+.th-pagination ul li a:hover,
+.th-socialicons li a:hover em{ border-color:#ff7328;}

@@ -1,0 +1,515 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "Mukta", sans-serif;
+font-family: "Poppins", sans-serif;*/
+
+.th-header:after,
+.th-nav > div > ul > li > a:before {
+    display: none;
+}
+
+/*Font Family*/
+body {
+    font: 500 18px / 22px "Mukta", sans-serif;
+}
+.th-btn {
+    font: bold 18px / 42px "Mukta", sans-serif;
+}
+.th-single-detailv2 .th-detailimg figcaption h1,
+.th-posttitle h2,
+.th-section-head h2,
+.th-widgettitle h3,
+.th-widget.th-mostpopularpost .th-posttitle h4,
+.th-categorytitle h3,
+.th-footertitle h3,
+.cd-search-suggestions h3,
+.th-description h4,
+.th-postdetail .th-posttitle h1,
+.th-description h3,
+.th-heading h2,
+.th-posttitle h1 {
+    font-family: "Mukta", sans-serif;
+}
+.poppins {
+   font-family: "Poppins", sans-serif; 
+}
+
+
+/*Background*/
+.menu-bg,
+.btn-theme-red:hover,
+.th-topbar,
+.th-control,
+.th-dateplusaddnav,
+.th-dateplusaddnav:before,
+.th-tags .th-tag:hover,
+.th-tags .th-tag:hover,
+.th-footer {
+    background: #0b5ad1;
+}
+.th-pagination ul li a:hover,
+.th-pagination ul li a:hover {
+    background: #0b5ad1 !important;
+    border-color: #0b5ad1 !important;
+}
+.th-theme-tag {
+    background: #cd1227;
+}
+.th-footerbar {
+    background: #0044ab;
+}
+.sports-bg {
+    background: #fffaf3;
+}
+.e-sewa-bg {
+    background: #f8fff5;
+}
+.th-bgdark {
+    background: #167ac6;
+}
+.btn-theme-red {
+    background: #cd1227;
+}
+body,
+.th-btnsearch:before {
+    background: transparent;
+}
+.bg-white {
+    background: #FFF;
+}
+
+
+
+/*Border Radius*/
+img.br-50 {
+    border-radius: 50px;
+}
+.b-radius img,
+img.b-radius {
+    border-radius: 10px;
+}
+img.b-radius-5 {
+    border-radius: 5px;
+}
+
+/*Color*/
+h2 a, h3 a,
+.th-default-color .th-section-head h2, .th-default-color .th-themepost a:hover,
+.th-categorytitle h3, .th-lifestyle .th-themepost a:hover {
+    color: #0b5ad1;
+}
+/*.th-posttitle h2 a {
+    color: #23252d;
+}*/
+
+.th-navigation ul li a:hover {
+    color: #d1cdcd !important;
+}
+.swiper-wrapper time {
+    color: #817e7e;
+}
+.text-white,
+.th-nav > div > ul > li > a,
+h2.entertainment a,
+.btn-theme-red,
+.btn-theme-red:hover,
+.th-single-detailv2 .th-postmatadata li,
+.swiper-wrapper ul li,
+.th-footerbar,
+.th-footernav ul li a {
+    color: #FFF;
+}
+.th-description h4 {
+    opacity: .68;
+}
+
+/*Font Size*/
+.single-title h1 {
+    font-size: 60px;
+}
+.th-single-detailv2 .th-detailimg figcaption h1,
+.th-section-head h2,
+.th-postdetail .th-posttitle h1 {
+    font-size: 40px;
+}
+.th-categorytitle h3,
+.th-postdetail .th-description blockquote q {
+    font-size: 32px;
+}
+.th-posttitle h2,
+.th-threecolumns .th-posttitle h2,
+.th-lifestylepost .th-themepost .th-posttitle h2,
+.th-posttabnav li.active a {
+    font-size: 23px;
+}
+.th-postdetail .th-description p {
+    font-size: 21px !important;
+}
+.f-20 h2,
+.th-nav > div > ul > li > a,
+.th-lifestylepost .th-contentbox .th-posttitle h2,
+.th-footercol .th-widget.th-mostpopularpost .th-posttitle h4,
+.th-liststyledot li,
+.th-relatedpost-slider .th-posttitle h2 {
+    font-size: 20px;
+}
+.th-allpostslider .th-posttitle h2,
+.th-widget.th-mostpopularpost .th-posttitle h4,
+.cd-search-suggestions .th-quicklinks ul,
+.th-footercol .th-widget.th-popularlinks ul,
+.th-posttabnav li a,
+.th-tags .th-tag {
+    font-size: 18px;
+}
+.th-postnav .th-postprev .th-btnprevpost, .th-postnav .th-postnext .th-btnnextpost {
+    font-size: 16px;
+}
+.th-timedate,
+.th-tickerslider,
+.th-postmatadata,
+.th-footercol .th-description p,
+.th-footerbar,
+.th-footernav ul li a {
+    font-size: 15px;
+}
+.th-theme-tag,
+.date span {
+    font-size: 13px;
+}
+
+/*Font Weight*/
+.th-nav > div > ul > li > a,
+.th-postdetail .th-description blockquote q {
+    font-weight: 500;
+}
+.th-description h4,
+.th-footer,
+.th-tags .th-tag {
+    font-weight: 400;
+}
+
+/*Line Height*/
+.th-postdetail .th-posttitle h1 {
+    line-height: 50px;
+}
+.th-single-detailv2 .th-detailimg figcaption h1,
+.th-heading h2 {
+    line-height: 45px;
+}
+.th-postdetail .th-description p,
+.th-authorname h3,
+.th-postdetail .th-description blockquote q {
+    line-height: 35px;
+}
+.th-posttitle h2,
+.th-lifestylepost .th-themepost .th-posttitle h2,
+.th-liststyledot li {
+    line-height: 30px;
+}
+.th-threecolumns .th-posttitle h2,
+.th-footercol .th-widget.th-mostpopularpost .th-posttitle h4 {
+    line-height: 28px;
+}
+p,
+.th-allpostslider .th-posttitle h2,
+.th-lifestylepost .th-contentbox .th-posttitle h2,
+.th-fourcolumns .th-themepost .th-posttitle h2,
+.th-widget.th-mostpopularpost .th-posttitle h4 {
+    line-height: 25px;
+}
+.th-posttitle h1 {
+    line-height: 1.2;
+}
+.th-nav > div > ul > li {
+    line-height: normal;
+}
+
+/*Margin & Padding*/
+.mt-45 {
+    margin-top: 45px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.date div {
+    margin-top: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.th-widget + .th-widget {
+    margin: 40px 0 0;
+}
+.th-postdetail .th-themepost-img {
+    margin: 0 0 20px;
+}
+
+.th-logo {
+    padding: 0;
+}
+.menu-bg {
+    padding-top: 5px;
+}
+.th-home-v1 .th-main {
+    padding: 0 0 0;
+}
+.p-0 {
+    padding: 0 0 0 !important;
+}
+.th-content .th-description {
+    padding: 0 0 40px;
+}
+.th-section-head {
+    padding: 0 0 15px;
+}
+.th-btnsearch {
+    padding: 10px 0 18px;
+}
+.th-footerthreecolumns {
+    padding: 50px 0 50px;
+}
+.th-main-section-pt-50 {
+    padding-top: 50px;
+}
+.th-nav > div > ul > li {
+    padding: 0 35px 5px 0;
+}
+.th-widget {
+    padding: 20px 15px;
+}
+.th-logoarea {
+    padding: 25px 0;
+}
+.th-tickerslider {
+    padding: 8px 0 0px 40px;
+}
+
+/*Extra Class*/
+.th-socialiconsbg li.th-youtube a:hover em {
+    background: #ff0000;
+    border-color: #e60505;
+}
+.th-socialicons li a em {
+    border: 1px solid #3c8aff;
+}
+.th-footerthreecolumns {
+    border-bottom: 1px solid #0066ff;
+}
+.th-nav > div > ul > li,
+.th-btnsearch,
+.th-themepost-description {
+    border-bottom: none;
+}
+.text-shadow {
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+.th-section-head {
+    text-align: left;
+}
+.th-logo {
+    float: none;
+}
+.th-content .th-postshare {
+    padding: 0;
+    margin: 0 0 10px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+.th-themepost-img img  {
+    width: 100%;
+}
+
+/*Extras (Combine CSS) */
+.post-overlay:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.68), transparent, transparent, transparent);
+    z-index: 1;
+}
+img.atr-date {
+    width: 25px;
+}
+.atr_img {
+    border: 1px solid #a9a9a9;
+}
+img.atr_img {
+    width: 55px;
+    border-radius: 50px;
+    padding: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.video-thumbnail:before {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  content: "\f01d";
+  font-family: FontAwesome;
+  font-size: 100px;
+  color: #fff;
+  opacity: .8;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.video-thumbnail:hover:before {
+  color: #eee;
+}
+
+
+
+.fa.fa-twitter::before{
+    content:"𝕏";
+    font-size:1.2em;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/*YouTube Responsive (See Example at: https://embedresponsively.com/)*/
+.embed-container { 
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+/*Responsive CSS class (should be important)*/
+
+@media (max-width: 1199px) {
+  .th-widget.th-mostpopularpost .th-posttitle h4,
+  .th-posttitle.f-20 h2 {
+    font-size: 18px !important;
+    line-height: 25px !important;
+  }
+  .th-posttitle h2 {
+    font-size: 22px !important;
+    line-height: 28px !important;
+  }
+}
+
+
+/*--------Small Device------------------*/
+@media (min-width: 240px) and (max-width: 480px) {
+    .mt-25 {
+        margin-top: 0;
+    }
+    .th-tickerslider .th-description p {
+      text-align: center;
+    }
+    .th-nav > div > ul > li > a {
+        font-size: 17px;
+    }
+    .th-allpostslider .th-posttitle h2 a {
+      color: #fff;
+      font-size: 16px;
+    }
+    .mmb-15 {
+        margin-bottom: 35px;
+    }
+    .th-single-detailv2 .th-detailimg .th-themepost-img img {
+      height: 200px !important;
+    }
+    .single-title h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 479px) {
+  .th-heading h2 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+}
+
+@media (min-width:600px) {
+    .logo-column {
+        display: flex;
+        align-items: center;
+    }
+    .th-authorsocialicons {
+        width: auto;
+        float: right;
+    }
+}
+
+@media (max-width:600px) {
+    .center-block-mobile {
+      text-align: center;
+      vertical-align: middle;
+    }
+    .center-block-social {
+       width: 45%;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .hide-in-mobile {
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+     .th-logoarea {
+          padding: 5px 0;
+        }
+    .th-single-detailv2 .th-detailimg .th-themepost-img img {
+      height: 300px;
+      object-fit: cover;
+    }
+    .th-single-detailv2 .th-detailimg figcaption h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .featured {
+        font-size: 15px;
+    }
+
+     .th-navbarheader button {
+        background: #0b5ad1 !important;
+        color: #fff;
+      }
+}
+
+/*--------------------------*/
+/*----------Medium Device----------------*/
+@media (min-width:768px) and (max-width:991px) {
+
+    .th-nav > div > ul > li > a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+  .th-logoarea .th-logo {
+    padding: 10px 0 10px !important;
+  }
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+
+    .th-nav > div > ul > li > a {
+        font-size: 17px;
+    }
+}
+
+/*--------------------------*/
+/*-----------Large Device---------------*/
+@media(min-width:991px){
+
+}
+/*--------------------------*/

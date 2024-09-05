@@ -1,0 +1,20 @@
+*:after,
+*:before,
+p a,
+a,
+.th-navigation ul li ul,
+.th-themepost-img a img,
+.th-themepost-img img,
+.th-posttabnav li a,
+.th-widget-instagram ul.th-instagram li a img,
+.th-addnavbox,
+.tg-btnsearch,
+.th-postthumbslider .owl-item .item,
+.th-btntwo,
+.th-socialiconsbg li a:hover em{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
